@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: cursedTimer;
+    src: url(CursedTimer.ttf)
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 30px auto 30px auto;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    border-radius: 40px;
+    padding: 20px 20px 40px 20px;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.scorecard {
+    display: flex;
+    height: 120px;
+    width: 155px;
+    background-color: #080001;
+    justify-content: space-around;
+    border: 3px solid #F94F6D;
+    
+}
+
+.score {
+    display: flex;
+    margin: auto;
+    color: #F94F6D;
+    font-size: 90px;
+    /*border: 1px solid;*/
+    font-family: cursedTimer, Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 0;
+}
+
+button {
+    font-family: cursedTimer, Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #9AABD8;
+    border-radius: 15%;
+    background-color: #1B244A;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+}
+
+button:hover {
+    background-color: #E0F2FE;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#reset-score {
+    width: 60px;
+    margin: 100px auto;
+}
