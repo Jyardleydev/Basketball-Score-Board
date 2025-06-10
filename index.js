@@ -42,3 +42,11 @@ function reset() {
     guestScore.textContent = guestCount
     
 }
+
+window.homeIncrement1 = homeIncrement1;     //needed to expose all my functions globably
+window.homeIncrement2 = homeIncrement2;     //the code works locally without these but 
+window.homeIncrement3 = homeIncrement3;     //would not work when deployed to netlify
+window.guestIncrement1 = guestIncrement1;
+window.guestIncrement2 = guestIncrement2;
+window.guestIncrement3 = guestIncrement3;
+window.reset = reset;
